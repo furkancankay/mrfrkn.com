@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/TodoExtensions/todofiles/todo.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="/TodoExtensions/loginfiles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>To Do</title>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <nav>
+      <div id="warning">Hoşgeldin <span id="nickname"></span></div>
+    </nav>
+    <main>
+      <a onclick=logout() id="arrow" href="todologin.html"><i class="fa fa-power-off" aria-hidden="true"></i></a>
+      <h2>Yapılacaklar</h2>
+      <div id="line"></div>
+      <div class="container">
+        <input type="text" id="textInput" placeholder="Enter Task" onkeydown="handleEnter(event)"/>
+        <button id="addBtn" type="submit" onclick="addTask()">+ADD</button>
+      </div>
+      <div id="tasks">
+        <p id="completedSentence"></p>
+        <table id="taskTable">
+
+        </table>
+      </div>
+      <div id="line"><h3 id="completedHeader"></h3></div>
+      <div id="tasks">
+        <table id="taskTable2">
+
+        </table>
+      </div>
+    </main>
+  </body>
+  <script src="/TodoExtensions/todofiles/todo.js"></script>
+  <script src="/TodoExtensions/todofiles/particles.js"></script>
+  <script src="/TodoExtensions/todofiles/app.js"></script>
+</html>
