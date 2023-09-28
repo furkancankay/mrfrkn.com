@@ -1,4 +1,4 @@
-# 🏆 mrfrkn.com 🏆
+# 🌱 mrfrkn.com 🌲
 This website will both introduce me and be a testing ground where I can add or remove any feature I can think of. I am currently adding a todo list to this site, whose homepage is `https://mrfrkn.com`, but this todo list will be personal `https://mrfrkn.com/todologin.html`. So each person will have their own todo list. I am sharing the codes of the project openly because the passwords of people who register and log in will be hashed.
 
 ## ⚠️ Warning
